@@ -1,0 +1,71 @@
+<h1>Home</h1>
+
+Alert Dismissing
+<div class="alert alert-warning" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+Collapse 
+
+<p>
+  <button class="segundo btn btn-primary" type="button" data-target="#collapseExample" >
+      Button with data-target
+  </button>
+</p>
+
+<div class="collapse" id="collapseExample">
+ <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+Acordeon
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" >
+    
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#uno" aria-controls="uno">
+          One
+        </button>
+    
+    </div>
+
+    <div id="uno" class="collapse show" data-parent="#accordionExample">
+      <div class="card-body">
+        Uno
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#dos" aria-controls="dos">
+          Two
+        </button>
+      
+    </div>
+    <div id="dos" class="collapse" data-parent="#accordionExample">
+      <div class="card-body">
+          Dos
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#tres"  aria-controls="tres">
+          Three
+        </button>
+      
+    </div>
+    <div id="tres" class="collapse" data-parent="#accordionExample">
+      <div class="verse card-body">
+          Tres
+      </div>
+    </div>
+  </div>
+</div>
